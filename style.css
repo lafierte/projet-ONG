@@ -1,0 +1,185 @@
+body{
+    font-family: arial,sans serif;
+}
+.container{
+  width: 920px;
+}
+
+header{
+ height: 160px;
+}
+
+header h1{
+float: left;
+margin-top: 10px;
+}
+header h2{
+   float: right;
+   margin-right: 50px;
+   margin-top: 30px;
+}
+
+header nav{
+   float: right;
+   margin-top: 10px;
+   border: 50px;
+}
+
+header nav hr{
+   width: 650px;
+   padding: 30px auto;
+}
+header nav ul li{
+   display: inline-block;
+} 
+header nav ul li a{
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-right: 20px;
+   color:black;
+   text-decoration: none;
+}
+
+header ul li a:hover{
+    background: chartreuse;
+    color: white;
+    padding: 15px 15px 20px 15px;
+}
+#image{
+   height: 580px; 
+   background: url(img/do1.jpg)no-repeat center center fixed;
+   background-size:cover;
+   opacity: 100%;
+}
+.rapper h1{
+   font-weight: bold;
+   font-size: 35px;
+   text-transform: uppercase;
+   text-align: center;
+   padding: 110px 550px 30px 0;
+   color: white;
+   margin-bottom: 50px;
+} 
+.rapper p{
+   font-size: 15px;
+   text-transform: uppercase;
+   text-align:left;
+   padding:0 560px 150px 180px;
+   color: white; 
+}
+
+.kouadio{
+display: flex;
+gap: 35px;
+} 
+ hr{
+
+}
+section{
+   text-align: center;
+   font-size: 35px;
+}
+.orange{
+   background-color: orange;
+   border-radius: 100px;
+   width: 50px;
+}
+.precieux{
+   display: flex;
+   background: whitesmoke;
+   height: 450px;
+} 
+.precieux p{
+   text-align: left;
+   margin-top: 150px;
+   margin-left: 150px;
+   width: 550px;
+}
+.precieux img{
+   margin-top: 10px;
+   margin-right: 15px;
+   margin-bottom:10px;
+   margin-left: 75px;
+   padding-bottom: 10px;
+}
+
+.odilon{
+   display: flex;
+   background: whitesmoke;
+   height: 450px;
+} 
+.odilon p{
+   text-align: left;
+   margin-top: 150px;
+   margin-left: 0;
+   width: 550px;
+}
+.odilon img{
+   margin-top: 10px;
+   margin-right: 15px;
+   margin-bottom:10px;
+   margin-left: 75px;
+   padding-bottom: 10px;
+}
+.jean{
+   display: flex;
+   background: whitesmoke;
+   height: 450px;
+
+} 
+.abou h1{
+ font-size: 20px;  
+ color: orange;
+justify-content: center;
+ text-align: center;
+ padding-left: 200px;
+
+}
+
+.jean p{
+   text-align: center;
+   margin-top: 70px;
+   margin-left: 50px;
+   width: 350px;
+}
+.jean img{
+   margin-top: 0;
+   margin-right: 15px;
+   margin-bottom:10px;
+   margin-left: 75px;
+   padding-bottom: 10px;
+}
+.titre{
+   color:orange; 
+   background: whitesmoke; 
+   padding-top: 90px; 
+   padding-left: 25px;
+
+}
+.pied{
+   display: flex;
+   text-align: center;
+   margin-top: 45px;
+   margin-right: 10px;
+}
+
+ .part1{
+   display: flex;
+   text-align: center;
+   padding-right:150px;
+   padding-top: 150px;
+   background: chartreuse;
+   gap: 25px;
+   width: 850px;
+   color: white;
+}
+.part2{
+   background:whitesmoke ;
+   width: 850px; display: flex;
+   flex-direction: column;
+} 
+.rog{
+  background: black;
+  color: white;
+  font-size: 5px;
+}

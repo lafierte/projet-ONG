@@ -1,0 +1,168 @@
+body{
+    font-family: arial,sans serif;
+}
+.container{
+  width: 920px;
+}
+
+header{
+ height: 160px;
+}
+
+header h1{
+float: left;
+margin-top: 10px;
+}
+header h2{
+   float: right;
+   margin-right: 50px;
+   margin-top: 30px;
+}
+
+header nav{
+   float: right;
+   margin-top: 10px;
+   border: 50px;
+}
+
+header nav hr{
+   width: 650px;
+   padding: 30px auto;
+}
+header nav ul li{
+   display: inline-block;
+} 
+header nav ul li a{
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-right: 20px;
+   color:black;
+   text-decoration: none;
+}
+
+header ul li a:hover{
+    background: chartreuse;
+    color: white;
+    padding: 15px 15px 20px 15px;
+}
+#image{
+    height: 580px; 
+    background: url(img/pre1.jpg)no-repeat center center fixed;
+    background-size:cover;
+    opacity: 100%;
+ }
+ .rapper h1{
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 110px 550px 30px 0;
+    color: white;
+    margin-bottom: 50px;
+ } 
+ .rapper p{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align:left;
+    padding:0 560px 150px 180px;
+    color: white; 
+ }
+ .kouadio{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    }
+    section{
+        text-align: center;
+        font-size: 35px;
+     }
+     .orange{
+        background-color: orange;
+        border-radius: 100px;
+        width: 50px;
+     }
+     
+
+     .odilon h2{
+        color: orange;
+        text-align: center;
+        justify-content: center;
+        margin-left: 65px;
+     }
+     
+     .odilon p{
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 490px;
+        width: 550px;
+        justify-content: center;
+     }
+     .charle h2{
+        color: orange;
+        text-align: center;
+        justify-content: center;
+        margin-left: 65px;
+     }
+     .charle img{
+        text-align: center;
+        margin-left: 490px;
+        justify-content: center;
+     }
+
+     .charle p{
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 490px;
+        width: 550px;
+        justify-content: center;
+     } 
+     .caira{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 25px;
+     }
+
+     .oka h1{
+         color:chartreuse;
+         margin-left: 245px;
+     }   
+     .oka h2{
+        color:orange;
+        margin-left: 245px;
+     } 
+     
+    
+     .conteneur{
+        display: flex;
+        background-color: whitesmoke;
+        width: 70px;
+        height: 95px;
+     }
+     .pied{
+        display: flex;
+        text-align: center;
+        margin-top: 45px;
+        margin-right: 10px;
+     }
+    
+      .part1{
+        display: flex;
+        text-align: center;
+        padding-right:150px;
+        padding-top: 150px;
+        background: chartreuse;
+        gap: 25px;
+        width: 850px;
+        color: white;
+     }
+     .part2{
+        background:whitesmoke ;
+        width: 850px; display: flex;
+        flex-direction: column;
+     } 
+     .rog{
+       background: black;
+       color: white;
+       font-size: 5px;
+     }

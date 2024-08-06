@@ -1,0 +1,262 @@
+body{
+    font-family: arial,sans serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.container{
+   width: 70%;
+}
+
+header{
+ height: 160px
+}
+
+header h1{
+float: left;
+margin-top: 20px;
+}
+
+
+header nav{
+   float: right;
+   margin-top: 50px;
+   border: 50px;
+}
+header nav hr{
+   width: 93%;
+   padding: 30px auto;
+}
+header nav ul li{
+   display: inline-block;
+} 
+header nav ul li a{
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-right: 20px;
+   color:black;
+   text-decoration: none;
+}
+
+#social{
+   display: flex;
+   margin-left: -300px;
+   margin-top: 20px;
+}
+
+#social img {
+   width: 30px;   
+   height: 30px;
+}
+
+header ul li a:hover{
+    background: chartreuse;
+    color: white;
+    padding: 15px 15px 20px 15px;
+}
+ 
+#main-image{
+    height: 580px; 
+    background: url(img/imA.jpg)no-repeat center center fixed;
+    background-size:cover;
+    opacity: 100%;
+}
+.wrapper h1{
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    padding:130px 10px 30px 0;
+    color: white;
+    margin-bottom: 50px;
+} 
+.wrapper button{
+    color: orange;
+    font-size: 20px;
+    background:local;
+    border-color: white;
+    width: 200px;
+    height: 50px;
+    transform: translate(20px 10px);
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+.container{
+   display: flex; 
+   text-align: center;
+   justify-content: space-between;
+   padding:10px 180px 10px 130px;
+   gap: 15px;
+}
+.ele1{
+    background: url(img/im2.jpg) center;
+    height:580px;
+    width: 500px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+} 
+.ele1 h3{
+padding: 500px 0 150px 0;
+}
+
+.ele2{
+    background: url(img/im3.jpg)center;
+    height: 580px;
+    width: 470px;
+    color: white;
+    font-size: 10px;
+} 
+
+.ele2 h4{
+    padding: 500px 0 150px 0;
+ }
+
+.ele3{
+    background: url(img/im4.jpg)center;
+    height: 580px;
+    width: 470px;
+    color: white;
+    font-size: 15px;
+}
+.ele3 h5{
+    padding: 500px 0 150px 0;
+ }
+ button{
+    color: white;
+    background: chartreuse;
+    text-align: center; 
+    justify-content: center;
+    margin: 10px 600px 10px 600px;
+    font-size: 20px;
+    border-color: white;
+ }
+
+ p{
+    text-align: center;
+    font-size: 35px;
+ }
+ .orange{
+   background-color: orange;
+   border-radius: 100px;
+   width: 50px;
+}
+ .ek{
+    display: flex; 
+    text-align: center;
+ }
+ .do{
+    font-size: 10px;
+    background: whitesmoke;
+ }
+ .do button{
+    color: white;
+    background: chartreuse;
+    margin: 35px ;
+    font-size: 20px;
+    border-color: white;
+ }
+ #tr{
+    display: flex; 
+   text-align: center;
+   justify-content: space-between;
+   padding:30px 180px 90px 130px;
+   gap: 15px;
+   background:chartreuse;
+ }
+
+ .delor{
+    background: white; 
+    padding: 0 0 50px 0px;
+ }
+ .pasc{
+    background: white;
+    padding: 0 0 50px 0px;
+ }
+
+ .atti{
+    background: white;
+    padding: 0 0 50px 0px;
+ }
+ .aur{
+    flex-direction: column;
+ }
+ .doriane{
+    display: flex; 
+    text-align: center;
+    justify-content: space-between;
+    padding:30px 180px 90px 130px; 
+    background: url(img/im6.jpg) no-repeat center center fixed;
+    background-size:cover;
+    opacity: 100%;
+    gap: 2px;
+ }
+
+ .rond {
+color: white;
+border:2px solid;
+border-radius: 80px; 
+text-align: center;
+ } 
+ .doriane h3{
+    padding: 10px 30px 10px 20px;
+ }
+ .pro {
+    color: white;
+    border:2px solid;
+    border-radius: 80px; 
+    text-align: center;
+ }
+ .pro h4{
+    padding: 10px 30px 10px 20px;
+ }
+ .inter {
+    color: white;
+    border:2px solid;
+    border-radius: 80px; 
+    text-align: center;
+ }
+ .inter h5{
+    padding: 10px 30px 10px 20px;
+ }
+ .container1{
+    background: whitesmoke;
+    height: 250px;
+ }
+ .pied{
+    display: flex;
+    text-align: center;
+    margin-top: 45px;
+    margin-right: 10px;
+ }
+
+  .part1{
+    display: flex;
+    padding-right:150px;
+    padding-top: 150px;
+    background: chartreuse;
+    gap: 25px;
+    width: 850px;
+    color: white;
+ }
+ .part1 img{
+   background-color: chartreuse; 
+   margin-left: 25px;
+   padding-bottom:0 auto;
+ }
+ .part2{
+    background:whitesmoke ;
+    width: 850px; 
+ } 
+ input{
+   display: flex;
+    flex-direction: column;
+ }
+ .rog{
+   background: black;
+   color: white;
+   font-size: 5px;
+ }
+    
